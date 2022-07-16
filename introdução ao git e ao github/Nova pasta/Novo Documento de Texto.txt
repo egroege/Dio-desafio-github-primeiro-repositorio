@@ -1,0 +1,66 @@
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio
+$ cd Dio-desafio-github-primeiro-repositorio
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Anota\303\247oes.txt"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "intrudu\303\247\303\243o ao git e ao github/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
+$ git add .
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "intrudu\303\247\303\243o ao git e ao github/Anota\303\247oes.txt"
+
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
+$ git cmmit -b"inclusão das anotações do curso de git/github"
+git: 'cmmit' is not a git command. See 'git --help'.
+
+The most similar command is
+        commit
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "inclusão das anotaçoes do curso de git/github"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'gelpa@DESKTOP-OM0UC8G.(none)')
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
+$
+
+gelpa@DESKTOP-OM0UC8G MINGW64 ~/OneDrive/Área de Trabalho/Dio/Dio-desafio-github-primeiro-repositorio (main)
